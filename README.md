@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard Api
+# Leaderboard API
 
  The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
@@ -11,14 +11,14 @@
 
 ## Live Demo
 
-[Live Demo Link](https://walterokumu.github.io/)
+[Live Demo Link](https://walterokumu.github.io/leaderboard-api/dist)
 
 ## Getting Started
 
 ### To get a local copy up and running follow these simple steps
 
-    > git clone - to be updated
-    > cd - to be updated
+    > git clone git@github.com:WalterOkumu/leaderboard-api.git
+    > cd leaderboard-api
     > npm install or yarn install
     > npm start or yarn start
 
