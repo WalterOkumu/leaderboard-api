@@ -62,6 +62,7 @@ body {
         color: black;
         border: 0.2em solid black;
         font-weight: bold;
+        cursor: pointer;
       }
     }
   }
@@ -88,6 +89,7 @@ body {
           color: black;
           border: 0.2em solid black;
           font-weight: bold;
+          cursor: pointer;
         }
       }
     }
@@ -101,6 +103,10 @@ body {
       .score-list-item:nth-child(even) {
         background-color: lightgray;
       }
+    }
+
+    .score-list:empty {
+      display: none;
     }
   }
 }
