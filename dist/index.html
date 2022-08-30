@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="To-Do List App">
   <title>Leaderboard Api</title>
-<script defer src="main.7aaac5877d55e93be7a9.js"></script></head>
+<script defer src="main.606e4fdc5736a3c71979.js"></script></head>
 <body>
   <h1 class="title">Leaderboard</h1>
   <br>
@@ -15,27 +15,19 @@
       <div class="view-scores-header">
         <h4 class="subtitle">Recent Scores</h4>
         <div class="button-area">
-          <button class="buttons" type="button">Refresh</button>
+          <button class="buttons" type="button" id="refresh-button">Refresh</button>
         </div>
       </div>
-      <ul class="score-list">
-        <li class="score-list-item">Name: 100</li>
-        <li class="score-list-item">Name: 20</li>
-        <li class="score-list-item">Name: 50</li>
-        <li class="score-list-item">Name: 78</li>
-        <li class="score-list-item">Name: 125</li>
-        <li class="score-list-item">Name: 75</li>
-        <li class="score-list-item">Name: 42</li>
-      </ul>
+      <ul class="score-list"></ul>
     </div>
     <div class="enter-scores">
       <h4 class="subtitle">Add your Score</h4>
       <div class="input-area">
-        <input class="input-box" type="text" placeholder="Your name" />
-        <input class="input-box" type="text" placeholder="Your score" />
+        <input class="input-box" type="text" placeholder="Your name" id="name"/>
+        <input class="input-box" type="text" placeholder="Your score" id="score"/>
       </div>
       <div class="button-area">
-        <button class="buttons" type="button">Submit</button>
+        <button class="buttons" type="button" id="submit">Submit</button>
       </div>
     </div>
   </div>

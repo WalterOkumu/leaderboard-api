@@ -4,9 +4,9 @@ import createNewScore from './components/createNewScore.js';
 import getScores from './components/getScores.js';
 import populateScores from './components/populateScores.js';
 
-const apiKey = 'L6xLuEpFVcCNZhbdTW8c';
+const apiKey = process.env.API_KEY;
 
-const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+const baseURL = process.env.BASE_URL;
 
 const url = `${baseURL}/games/${apiKey}/scores`;
 
